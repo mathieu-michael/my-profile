@@ -1,0 +1,119 @@
+
+body { 
+	font-family: Arial, serif;
+	background-image:url("./image/background2.jpg")   ;
+	text-align:center;
+
+
+}
+h1  { 
+	font-weight: bloder;
+	font-size:24px;
+	font-family:'Roboto',sans-serif;
+	text-transform: uppercase;
+	}
+	img { 
+		border-radius: 50%;
+		width: 100px;
+		height:100px ;
+		}
+title { color: white;}
+h2 { color:cornflowerblue;
+		text-transform: uppercase; }
+ul li a{ text-decoration: none;
+		color: black;
+		font-size: 32px;
+		line-height: 1.8;}
+ul{ padding: 0;}
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+@media(max-width: 760px)
+.container	{
+	width: 600px;
+}
+@media(max-width: 500px)
+.container	{
+	width: 400px;
+		}
+.profile{
+    background: rgba(255,255,255, 0.9);
+    padding: 60px;
+    margin: 50px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+}
+
+.crypto{
+    background: rgba(255,255,255, 0.9);
+    padding: 60px;
+    margin: 50px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+}
+
+.restaurants{
+    background: rgba(255,255,255, 0.9);
+    padding: 60px;
+    margin: 50px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+}
+
+.traveling{
+    background: rgba(255,255,255, 0.9);
+    padding: 60px;
+    margin: 50px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+}
+
+.followme {
+    background: rgba(255,255,255, 0.9);
+    padding: 60px;
+    margin: 50px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+}
+
+.divsimages{
+	width: 200px;
+	height:150px;
+	border-radius: 0%;
+
+
+
+}
+.btn-blue{
+	background-color: #6B72E1;
+	color: 	white;
+	padding: 	15px 20px;
+	border-radius: 	4px;
+	text-decoration: none;
+}
+
+.btn-blue:hover{
+	background-color: 	black;
+	color: 	white;
+
+
+}
+.followme{
+	list-style: none;
+	padding: 	0px;
+
+}
+.followme li{
+	display: 	inline;
+	padding: 	10px;
+}
+.followme i {
+	font-size: 	50px;
+	color: 	rgb(230,230,230);
+	}
+.followme i:hover{
+	font-size: 	50px;
+	color:black;
+}
+
